@@ -12,50 +12,158 @@
 
 <body>
 
-	<h1>Contact</h1>
+		<div class="top_bar">
 
-<!-- Contactd Us Content 
-  Contact Us
+				<h2 class=logo>S&J</h2>
+			<img class ="hamburger" src="img/nav-hamburger.png">
+			
+			<ul>
+				<li>home</li>
+				<li><a href ="contact.html">contact</a></li>
+				<li><a href ="contact.html">services</a></li>
+			</ul>
+			</div>
+			
+			
+			<div class ="top_section">
+			
+			<img class="contact_img" src="img/contact/contact-jumbotron.png">
+			
+			<h2 class ="contact_jumbo_text">Contact us</h2>
+			
+			</div>
+
+<div class ="container">
+ 
+	
+		
   
-Get In Touch
 
-Email Address
-Enter Email
-We'll never share your email with anyone else.
+<div class = "contact_form">
+		<h2 class ="subheader">Get In Touch</h2>
 
-How many buildings do you need planned?
-1-5
+<label for = "email"> Email Address</label><br>
+<input type ="email" id ="email"> <br>
+We'll never share your email with anyone else.<br><br>
 
-Provide a brief overview of your project needs:
+How many buildings do you need planned?<br>
+<select name="1_through_5">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+</select><br>
 
-I am a small business
-I am a residential owner
-I am a corporation
 
-Submit
 
-Where We Work
 
-New York
-123 Lane
-Suite 100
-Albany, NY 12345
-202 555 0144
+Provide a brief overview of your project needs:<br>
+<textarea name="message" rows="7" cols="75"></textarea><br>
 
-Florida
-Ocean Drive
-Suite 201
+<input type="radio" id="one" name="drone" value="one">
+ <label for="one">I am small business </label>
+<div>
+ <input type="radio" id="two" name="drone" value="two">
+ <label for="two">I am residential owner</label>
+</div>
+
+<div>
+ <input type="radio" id="three" name="drone" value="three">
+ <label for="three">I am a corporation</label>
+</div>
+
+<button>Submit</button>
+
+</div>
+
+
+
+<div class = "where_we_work_section">
+	<h2 class ="subheader">Where We Work</h2>
+
+<div class="newyork">
+<h2 class ="subheader">New York</h2><br>
+123 Lane<br>
+Suite 100<br>
+Albany, NY 12345<br>
+202 555 0144<br>
+</div>
+
+<div class="florida">
+<h2 class ="subheader">Florida</h2><br>
+Ocean Drive<br>
+Suite 201<br>
 Orlando, FL 22345
-502 555 0144
+502 555 0144<br>
+</div>
 
-California
-Mountain Street
-Suite 105
-San Diego, CA 22345
-702 555 0144
+<div class="cali">
+<h2 class ="subheader">California</h2><br>
+Mountain Street<br>
+Suite 105<br>
+San Diego, CA 22345<br>
+702 555 0144<br>
+</div>
 
--->
+</div>
+
+
+
+</div> <!-- Container Div --> 
+
+<!-- FOOTER CONTENT -->
+<div class="footer">
+
+		<div class="footer_form">
+		<div class="footer_header">Interested in starting a project? <br> </div> 
+		Let’s talk:<br>
+		
+		Enter email <br>
+		
+		We'll never share your email with anyone else.
+		
+		</div>
+		
+		<div class="city">
+		<div class="footer_header">New York </div> 
+		123 Lane
+		Suite 100
+		Albany, NY 12345
+		202 555 0144
+		</div>
+		
+		<div class="city">
+		<div class="footer_header">Florida</div> 
+		Ocean Drive
+		Suite 201
+		Orlando, FL 22345
+		502 555 0144
+		</div>
+		
+		<div class="city">
+		<div class="footer_header">California</div> 
+		Mountain Street
+		Suite 105
+		San Diego, CA 22345
+		702 555 0144
+		</div>
+		
+		Copyright © 2018 Smith and Jones
+		</div>
+		<!-- FOOTER END -->
+		
+
+
+
+
+
+
+
+
 
 	<script src="js/index.js"></script>
+
+
 </body>
 </html>
