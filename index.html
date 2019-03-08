@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
@@ -15,16 +16,24 @@
 
 	<!-- Top Bar and Large Image Start -->
 		<div class="top_bar">
+			<h2 class=logo>S&J</h2>
 
-				<h2 class=logo>S&J</h2>
-			<img class ="hamburger" src="img/nav-hamburger.png">
+
+
+
+				<div class="dropdown">
+					<div class="dropdown-open"><img src="img/nav-hamburger.png"></div>
+					<div class="dropdown-close hidden"><img src="img/nav-hamburger-close.png"></div>
+				</div>
 			
-			<!-- <ul>
-				<li>home</li>
-				<li><a href ="contact.html">contact</a></li>
-				<li><a href ="services.html">services</a></li>
-			</ul> -->
-			</div>
+				<div class= "dropdown-content dropdown-hidden">
+						<a class ="dropdown-link" href ="index.html" target="_blank">Home</a>
+						<a class ="dropdown-link" href ="contact.html" target="_blank">Contact</a>
+						<a class ="dropdown-link" href ="services.html" target="_blank">Services</a>
+		
+
+				</div>
+		</div>
 			
 			
 			<div class ="top_section">
@@ -47,7 +56,7 @@
 
 <div class="content_container">
 <!-- Smith & Jones  Start -->
-<div class="whole_section">
+<div class="smith_section">
 	<div class ="text_section">
 <h2 class ="subheader">Smith & Jones Architects </h2>
 
@@ -65,7 +74,7 @@ t ea. Eu timeam vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec
 
 <!-- Futuristic Designs Start -->
 
-<div class ="whole_section_reverse">
+<div class ="future_section_reverse">
 	<div class="future_section">
 		<h2 class ="subheader"> Futuristic Designs</h2>
 		<p>Et sed autem causae appareat, tempor abhorreant te mei, facer facilisis sit ea. Eu timeam 
@@ -84,33 +93,34 @@ vidisse consectetuer sed. Duo etiam laboramus dissentiet in, nec no errem </p>
 
 <h2 class ="subheader"> Recent Projects</h2>
 
-<img src="img/home/home-villas-img.png">
+<div class="parent_div">
+	<img class="home_villas" src="img/home/home-villas-img.png">
+	<h1 class="grey_box_1">THE VILLAS</h1>
+</div>
 
-<h1 class="grey_box">THE VILLAS</h1>
-
-<p>The Villas bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. 
+<p class ="recent">The Villas bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. <br><br>
 
 		Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with 
 		additional clickthroughs from DevOps. Nanotechnology immersion along the
 		 information highway will close the loop on focusing solely on the bottom line.</p>
 
 
-<img src="img/home/home-outskirts-img.png">
-<h1 class="grey_box">OUTSKIRTS</h1>
+<img class="outskirts_img" src="img/home/home-outskirts-img.png">
+<h1 class="grey_box_2">OUTSKIRTS</h1>
 
-<p>The Outskirts are amazing to the table win-win survival strategies to ensure proactive domination. At 
+<p class ="recent">The Outskirts are amazing to the table win-win survival strategies to ensure proactive domination. At 
 the end of the day, going forward, a new normal that has evolved from generation X is on the runway 
-heading towards a streamlined cloud solution. Capitalize on low hanging fruit to identify a ballpark 
+heading towards a streamlined cloud solution.<br><br>Capitalize on low hanging fruit to identify a ballpark 
 value added activity to beta test. Override the digital divide with additional clickthroughs from 
 DevOps Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
 
 <img src="img/home/home-the-blocks-img.png">
-<h1 class="grey_box">THE BLOCKS</h1>
+<h1 class="grey_box_3">THE BLOCKS</h1>
 
-<p>The Blocks are amazing to the table win-win survival strategies to 
+<p class ="recent">The Blocks are amazing to the table win-win survival strategies to 
 	ensure proactive domination. At the end of the day, going forward, a new normal that 
-	has evolved from generation X is on the runway heading towards a streamlined cloud solution. 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
+	has evolved from generation X is on the runway heading towards a streamlined cloud solution.<br><br> 
+Capitalize on low hanging fru	it to identify a ballpark value added activity to beta test.
  Override the digital divide with additional clickthroughs from DevOps. Nanotechnology
   immersion along the information highway will close the loop on focusing solely on the bottom line. </p>
 
@@ -126,7 +136,20 @@ Capitalize on low hanging fruit to identify a ballpark value added activity to b
 <!-- FOOTER CONTENT -->
 <div class="footer">
 
-<div class="footer_form">
+
+<div class = "footer_form">
+	<h2 class ="footer_header">Interested in starting a project? </h2>
+		
+		<label for = "email"> Email Address</label>
+		<input type ="email" id ="email" placeholder="enter your email"> <br>
+		We'll never share your email with anyone else.<br><br>
+		
+
+</div>
+
+
+
+<!-- <div class="footer_form">
 <div class="footer_header">Interested in starting a project? <br> </div> 
 Let’s talk:<br>
 
@@ -134,7 +157,7 @@ Enter email <br>
 
 We'll never share your email with anyone else.
 
-</div>
+</div> -->
 
 <div class="city">
 <div class="footer_header">New York </div> 
