@@ -1,12 +1,21 @@
 footer {
     background-color: @footer-bg;
     color: @light;
+
+
+
     .footer-content {
         letter-spacing: 0.7px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 30px 10% 30px;
+
+        @media (max-width:500px) {
+            display: flex;
+            flex-direction: column;
+    
+            }
     
         h3 {
             font-size: 1.8rem;

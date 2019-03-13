@@ -36,6 +36,8 @@ left: 75px;
 
 .tabs {
     width: 75%;
+
+    
     .tabs-items {
       width: 100%;
       height: 300px;
@@ -44,6 +46,8 @@ left: 75px;
       padding-top: 60px;
       margin-left: 40px;
       margin-bottom: 80px;
+
+    
       
     }
     .tabs-item {
@@ -53,6 +57,8 @@ left: 75px;
         font-size: 24px;
         font-weight: bold;
         padding-bottom: 10px;
+
+      
 
         tabs-item-text {
 
@@ -69,6 +75,12 @@ left: 75px;
     .tabs-links {
       display: flex;
       padding-left: 20px;
+
+      @media @phone {
+        display:flex;
+        flex-direction: column;
+      
+    }
      
       
 
@@ -80,6 +92,13 @@ left: 75px;
       font-size: 18px;
       margin: 25px;
       width: 25%;
+
+
+      @media @phone {
+        width:95%;
+      
+    }
+     
   
  
 
